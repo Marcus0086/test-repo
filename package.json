@@ -1,0 +1,53 @@
+{
+  "name": "engagex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Conferencing App that is must to have.",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "node server",
+    "serve": "nodemon server",
+    "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyanshuG13/EngageX.git"
+  },
+  "keywords": [
+    "EngageX"
+  ],
+  "author": "Priyanshu Gupta, Vikas Singh, Raghav Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyanshuG13/EngageX/issues"
+  },
+  "homepage": "https://github.com/PriyanshuG13/EngageX#readme",
+  "dependencies": {
+    "@bigheads/core": "^0.3.3",
+    "express": "^4.17.3",
+    "httpolyglot": "^0.1.2",
+    "mongoose": "^6.2.4",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "autoprefixer": "^10.4.2",
+    "nodemon": "^2.0.15",
+    "postcss": "^8.4.6",
+    "sass": "^1.49.7",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.5"
+  }
+}
